@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0-*",
+    "dependencies": {
+    },
+
+    "frameworks": {
+         "dnx451": { 
+            "dependencies": {
+                "Akka": "1.0.1"
+            }
+        }
+    }
+}
