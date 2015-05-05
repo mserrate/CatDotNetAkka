@@ -1,0 +1,201 @@
+{
+  "locked": false,
+  "version": -9998,
+  "projectFileDependencyGroups": {
+    "": [
+      "Shared "
+    ],
+    "DNX,Version=v4.5.1": [
+      "Akka >= 1.0.1",
+      "Akka.Remote >= 1.0.1"
+    ]
+  },
+  "libraries": {
+    "Akka/1.0.1": {
+      "serviceable": false,
+      "sha": "ReX05vuLEqa6EpHTNHR6n2g2BuKRUXeua5tdOkBHP3KiYS1wSqSMpaV+vcjFMkCTm50p2Ow2rS9/uuKZtaLY0g==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Newtonsoft.Json": "6.0.8"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/Akka.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/Akka.dll"
+          ]
+        }
+      },
+      "files": [
+        "Akka.1.0.1.nupkg",
+        "Akka.1.0.1.nupkg.sha512",
+        "Akka.nuspec",
+        "lib/net45/Akka.ExternalAnnotations.xml",
+        "lib/net45/Akka.dll",
+        "lib/net45/Akka.xml"
+      ]
+    },
+    "Akka.Remote/1.0.1": {
+      "serviceable": false,
+      "sha": "WeEA6KToxRg69sF6zLO6NXf+FysLv+ns2G0ppOD7t2cWPaIBx2GQZkOU2DWZJ3WaXxCx6NdfZuSzDoiVuHe6uA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Google.ProtocolBuffers": "2.4.1.521",
+            "Helios": "1.4.0",
+            "Akka": "1.0.1"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/Akka.Remote.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/Akka.Remote.dll"
+          ]
+        }
+      },
+      "files": [
+        "Akka.Remote.1.0.1.nupkg",
+        "Akka.Remote.1.0.1.nupkg.sha512",
+        "Akka.Remote.nuspec",
+        "lib/net45/Akka.Remote.dll",
+        "lib/net45/Akka.Remote.xml"
+      ]
+    },
+    "Google.ProtocolBuffers/2.4.1.521": {
+      "serviceable": false,
+      "sha": "BnCjh77bOf6yjMCSn6TQufV477If9UVB+hYRTYSlCCRacSdrIsR6RPZqvV9vpGHMnKWEgHhVrNCZ9iY9pdgtSg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net40/Google.ProtocolBuffers.Serialization.dll",
+            "lib/net40/Google.ProtocolBuffers.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net40/Google.ProtocolBuffers.Serialization.dll",
+            "lib/net40/Google.ProtocolBuffers.dll"
+          ]
+        }
+      },
+      "files": [
+        "Google.ProtocolBuffers.2.4.1.521.nupkg",
+        "Google.ProtocolBuffers.2.4.1.521.nupkg.sha512",
+        "Google.ProtocolBuffers.nuspec",
+        "content/CHANGES.txt",
+        "content/licenses/license.txt",
+        "content/licenses/protoc-license.txt",
+        "content/protos/google/protobuf/csharp_options.proto",
+        "content/protos/google/protobuf/descriptor.proto",
+        "content/protos/tutorial/addressbook.proto",
+        "lib/cf20/Google.ProtocolBuffers.Serialization.dll",
+        "lib/cf20/Google.ProtocolBuffers.Serialization.xml",
+        "lib/cf20/Google.ProtocolBuffers.dll",
+        "lib/cf20/Google.ProtocolBuffers.xml",
+        "lib/cf35/Google.ProtocolBuffers.Serialization.dll",
+        "lib/cf35/Google.ProtocolBuffers.Serialization.xml",
+        "lib/cf35/Google.ProtocolBuffers.dll",
+        "lib/cf35/Google.ProtocolBuffers.xml",
+        "lib/net20/Google.ProtocolBuffers.Serialization.dll",
+        "lib/net20/Google.ProtocolBuffers.Serialization.xml",
+        "lib/net20/Google.ProtocolBuffers.dll",
+        "lib/net20/Google.ProtocolBuffers.xml",
+        "lib/net35/Google.ProtocolBuffers.Serialization.dll",
+        "lib/net35/Google.ProtocolBuffers.Serialization.xml",
+        "lib/net35/Google.ProtocolBuffers.dll",
+        "lib/net35/Google.ProtocolBuffers.xml",
+        "lib/net40/Google.ProtocolBuffers.Serialization.dll",
+        "lib/net40/Google.ProtocolBuffers.Serialization.xml",
+        "lib/net40/Google.ProtocolBuffers.dll",
+        "lib/net40/Google.ProtocolBuffers.xml",
+        "lib/portable-net40+sl4+sl5+wp7+wp8+win8/Google.ProtocolBuffers.Serialization.dll",
+        "lib/portable-net40+sl4+sl5+wp7+wp8+win8/Google.ProtocolBuffers.Serialization.xml",
+        "lib/portable-net40+sl4+sl5+wp7+wp8+win8/Google.ProtocolBuffers.dll",
+        "lib/portable-net40+sl4+sl5+wp7+wp8+win8/Google.ProtocolBuffers.xml",
+        "lib/sl20/Google.ProtocolBuffers.Serialization.dll",
+        "lib/sl20/Google.ProtocolBuffers.Serialization.xml",
+        "lib/sl20/Google.ProtocolBuffers.dll",
+        "lib/sl20/Google.ProtocolBuffers.xml",
+        "lib/sl30/Google.ProtocolBuffers.Serialization.dll",
+        "lib/sl30/Google.ProtocolBuffers.Serialization.xml",
+        "lib/sl30/Google.ProtocolBuffers.dll",
+        "lib/sl30/Google.ProtocolBuffers.xml",
+        "lib/sl40/Google.ProtocolBuffers.Serialization.dll",
+        "lib/sl40/Google.ProtocolBuffers.Serialization.xml",
+        "lib/sl40/Google.ProtocolBuffers.dll",
+        "lib/sl40/Google.ProtocolBuffers.xml",
+        "tools/Google.ProtocolBuffers.Serialization.dll",
+        "tools/Google.ProtocolBuffers.dll",
+        "tools/ProtoBench.exe",
+        "tools/ProtoDump.exe",
+        "tools/ProtoGen.exe",
+        "tools/ProtoGen.exe.config",
+        "tools/ProtoMunge.exe",
+        "tools/protoc-license.txt",
+        "tools/protoc.exe"
+      ]
+    },
+    "Helios/1.4.0": {
+      "serviceable": false,
+      "sha": "u43FXU4U0nS15cDHqswP7tdedQ+a8HsFXLmROML4mxjZL7suWCGnKVPgt+9V3YSbJ1cme4QWEHEexHtaxCQJJg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/Helios.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/Helios.dll"
+          ]
+        }
+      },
+      "files": [
+        "Helios.1.4.0.nupkg",
+        "Helios.1.4.0.nupkg.sha512",
+        "Helios.nuspec",
+        "lib/net40/Helios.NET40.dll",
+        "lib/net45/Helios.dll"
+      ]
+    },
+    "Newtonsoft.Json/6.0.8": {
+      "serviceable": false,
+      "sha": "nZX7xCBl3PXpxRCxVtVfUXn63gSzrT8aO0VB9Tp24q656IUup9EGE8SGlo0UJ9if48OacJU34ZEtKEGWIdNCzg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/Newtonsoft.Json.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/Newtonsoft.Json.dll"
+          ]
+        }
+      },
+      "files": [
+        "Newtonsoft.Json.6.0.8.nupkg",
+        "Newtonsoft.Json.6.0.8.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.xml",
+        "tools/install.ps1"
+      ]
+    }
+  }
+}

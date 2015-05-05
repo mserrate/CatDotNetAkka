@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0-*",
+    "dependencies": {
+        "Shared": ""
+    },
+    "commands": { 
+        "run": "run"
+    },
+    "frameworks": {
+         "dnx451": { 
+            "dependencies": {
+                "Akka": "1.0.1",
+                "Akka.Remote": "1.0.1"
+            }
+        }
+    }
+}
