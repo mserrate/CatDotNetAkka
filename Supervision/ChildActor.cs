@@ -16,23 +16,14 @@ namespace Supervision
             Self.Tell(new DoSomething());
         }
 
-        protected override void PreRestart(Exception reason, object message)
-        {
-            Console.WriteLine("PreRestart [{0}] [{1}] from {2}", reason.Message, message.GetType().Name, Sender);
-        }
-
-        protected override void PreStart()
-        {
-            Console.WriteLine("PreRestart");
-        }
         protected override void PostStop()
         {
-            Console.WriteLine("PostStop");
+            Console.WriteLine("\n\n\nChildActor: {0} stopped", Self.Path);
         }
 
         protected override void PostRestart(Exception reason)
         {
-            Console.WriteLine("PostRestart");
+            Console.WriteLine("\n\n\nChildActor: {0} restarted", Self.Path);
         }
 
         private void DoSomethingHandler(DoSomething message)
