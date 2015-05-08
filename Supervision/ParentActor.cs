@@ -11,7 +11,7 @@ namespace Supervision
         {
             if (message is StartProcess)
             {
-                Context.ActorOf(Props.Create(() => new ChildActor(_errorNr)));
+                Context.ActorOf(Props.Create(() => new ChildActor(_errorNr)), string.Format("child_{0}", _errorNr));
                 _errorNr++;
             }
 
